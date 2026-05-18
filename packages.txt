@@ -1,2 +1,1 @@
-# This file is intentionally left empty.
-# You do not need system packages when using opencv-python-headless.
+libgl1
