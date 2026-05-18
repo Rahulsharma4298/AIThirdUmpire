@@ -496,9 +496,9 @@ if uploaded_file is not None:
             st.markdown('<div class="section-label">⚙️ &nbsp; Analysis Configuration</div>', unsafe_allow_html=True)
             c1, c2, c3 = st.columns(3)
             with c1:
-                frame_step = st.number_input("Step Interval", min_value=1, max_value=10, value=2, help="Frames to skip between samples sent to AI.")
+                frame_step = st.number_input("Step Interval", min_value=1, max_value=10, value=3, help="Frames to skip between samples sent to AI.")
             with c2:
-                num_before = st.number_input("Frames Before", min_value=0, max_value=5, value=3)
+                num_before = st.number_input("Frames Before", min_value=0, max_value=5, value=2)
             with c3:
                 num_after = st.number_input("Frames After", min_value=0, max_value=5, value=3)
 
