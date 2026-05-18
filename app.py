@@ -498,9 +498,9 @@ if uploaded_file is not None:
             with c1:
                 frame_step = st.number_input("Step Interval", min_value=1, max_value=10, value=2, help="Frames to skip between samples sent to AI.")
             with c2:
-                num_before = st.number_input("Frames Before", min_value=0, max_value=5, value=2)
+                num_before = st.number_input("Frames Before", min_value=0, max_value=5, value=3)
             with c3:
-                num_after = st.number_input("Frames After", min_value=0, max_value=5, value=2)
+                num_after = st.number_input("Frames After", min_value=0, max_value=5, value=3)
 
             total_frames_sent = num_before + 1 + num_after
             st.markdown(f"""<div style="font-size:0.8rem; color:#64748b; text-align:center; margin-top:0.3rem;">
