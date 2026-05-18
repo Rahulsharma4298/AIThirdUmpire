@@ -1,0 +1,40 @@
+# Virtual Environments
+venv/
+env/
+.env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment Variables / Secrets
+.env
+.streamlit/secrets.toml
+
+# Media / Uploaded Files (to keep the repo clean)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+
+# Temporary Files / Logs
+*.log
+temp/
+tmp/
+.temp/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
